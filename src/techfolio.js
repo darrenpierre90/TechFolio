@@ -18,10 +18,10 @@ import emoji from "react-easy-emoji";
 ==========================*/
 
 const app = {
-  title: "AbdulQadir Portfolio",
+  title: "Darren Pierre Portfolio",
   // Note : consider leaving null if you dont have any head icon
   icon: "ayin_qoph.png",
-  description: "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer.",
+  description: "Carleton undergrad with a strong curiosity for AI,Machine Learning and Data Science.",
 };
 
 /*=====================
@@ -31,10 +31,10 @@ const app = {
 
 const socialNetworks = {
   //Note : if you dont need or have any social network just add null value
-  github: "https://github.com/AQadir64",
-  linkden: null,
-  facebook: "https://www.facebook.com/profile.php?id=100006896625330",
-  instagram: "https://www.instagram.com/_ayin_qoph/",
+  github: "https://github.com/darrenpierre90",
+  linkden: "www.linkedin.com/in/darren-pierre",
+  facebook: null,
+  instagram: "https://www.instagram.com/darrenpierre90/",
   twitter: null,
 };
 
@@ -44,17 +44,17 @@ const socialNetworks = {
 ==========================*/
 
 const bannerSection = {
-  username: "Abdul Qadir",
-  bannerHeading: "Marhabaan.",
+  username: "Darren Pierre",
+  bannerHeading: "Ello, gov'nor!",
   bannerTagLine: emoji(
-    "An ordinary karachitte Web Developer, Mobile Shutterbug, and Writer 😀 Who loves to play with different stacks and love to give breath to Ui/Ux designs."
+    "Carleton undergrad with a strong curiosity for AI,Machine Learning and Data Science."
   ),
   //Note:Simply add you avatar image in src/assets/imgs folder 
   //and add the name along with extention e.g xyz.png , abc.svg
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
-  bannerAvatar: "avatar.jpeg",
+  bannerAvatar: "avatar.JPG",
   resumeLink:
-    "https://drive.google.com/file/d/1C9wylYtAU9NbZaBwmQ6uGmNWmWS8_I6F/view?usp=sharing",
+    "https://drive.google.com/file/d/1xHMqe1EjfK9wxgPfalz_L499T3abw-AR/view?usp=sharing",
 };
 
 /*=====================
@@ -65,11 +65,11 @@ const bannerSection = {
 ==========================*/
 
 const aboutSection = {
-  admin: "ayin_qoph@ayin_qoph",
+  admin: "Darren@Pierre",
   firstCommand: " sudo run about.exe",
   secondCommand: " executing about.exe",
   about:
-    "Computer Science Student and Full Stack Developer. Passionate about solving problems that will benefit others in the area of IT or in real life. from haven't think about computer science and then picking it as a carrier back in 2017 I have discovered a lot in this system. But outside it, I'm just an ordinary karachitte man who loves to do mobile photography and write thoughts.",
+  "Carleton undergrad with a strong curiosity for AI,Machine Learning and Data Science.",
 };
 
 /*=====================
@@ -97,7 +97,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
-      fontAwesomeClassname: "fab fa-sass",
+      fontAwesomeClassname: "fab fa-dev",
     },
     {
       fontAwesomeClassname: "fab fa-js",
@@ -109,13 +109,13 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-node",
     },
     {
-      fontAwesomeClassname: "fab fa-npm",
+      fontAwesomeClassname: "fab fa-kaggle",
     },
     {
-      fontAwesomeClassname: "fas fa-fire",
+      fontAwesomeClassname: "fab fa-ubuntu",
     },
     {
-      fontAwesomeClassname: "fab fa-wordpress",
+      fontAwesomeClassname: "fab fa-java",
     },
     {
       fontAwesomeClassname: "fab fa-python",
@@ -138,9 +138,9 @@ const openSourceSection = {
   //Note :  don't edit the githubToken
   githubToken: process.env.REACT_APP_GITHUB_ACCESS_TOKEN,
 
-  githubUserName: "AQadir64",
+  githubUserName: "darrenpierre90",
   //Note :  no of open source projects you want to show.
-  numberOfRepos: 6,
+  numberOfRepos: 3,
 };
 
 /*=====================
@@ -228,7 +228,7 @@ const contactSection = {
   contactTagline:
     "Hey Folks, Love to see you sliding here, Y'all can reach me.",
   // Note : add your all contacts in the contactList seperating with *,* .
-  contactList: ["03461826315", "a.qadir67@outlook.com"],
+  contactList: ["6139864288", "d-pierre90@hotmail.com"],
 };
 
 
